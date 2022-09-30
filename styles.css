@@ -6,12 +6,12 @@ html {
     font-family: sans-serif;
     padding: 0 10px;
     height: 100%;
-    /*background: black;*/
+    background: black;
     margin: 0;
   }
   
   h1 {
-    color: black;
+    color: white;
     margin: 0;
     padding: 15px;
   }
