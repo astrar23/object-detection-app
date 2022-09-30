@@ -23,12 +23,12 @@ html {
   
   #detect-canvas {
     margin: auto;
-    width: calc(100% - 10px);
-    max-width: 600px;
+    width: 100%;
+    /*max-width: 600px;*/
 
     position: absolute;
-    left: 50px;
-    top: 50px;
+    top: 80px;
+    left: 0px;
   }
   
   #loading-animation img {
@@ -49,6 +49,10 @@ html {
     /*background: white;*/
   }
     
+  #btn-flip-div {
+    padding-top: 90%;
+  }
+  
   #btn-flip {
     cursor: pointer;
   }
@@ -78,24 +82,11 @@ html {
   header, footer {
     clear: both;
   }
-  
-  .removed {
-    display: none;
-  }
-  
-  .invisible {
-    opacity: 0.2;
-  }
-  
-  .note {
-    font-style: italic;
-    font-size: 130%;
-  }
-  
+    
   .videoView {
     position: absolute;
-    left: 50px;
-    top: 50px;
+    left: 0px;
+    top: 80px;
 
     float: left;
     width: 48%;
