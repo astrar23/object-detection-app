@@ -10,8 +10,10 @@
   <body>
       <div id="container">
         <h1>Object Detection</h1>
+
+        <div id="nl" hidden=""></div>
         <div id="loading-animation">
-            <img src="./neko-animated.gif">
+          <img src="./neko-animated.gif">
         </div>
         <div id="detect-div" hidden="">
             <a id="btn-detect">
@@ -37,6 +39,8 @@
 
       </div>
   
+    <!-- Import Neko library -->
+    <script src="https://webneko.net/n20171213.js"></script>
     
     <!-- Import TensorFlow.js library -->
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.11.0/dist/tf.min.js" type="text/javascript"></script>
@@ -45,6 +49,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
     
     <!-- Import the page's JavaScript to do some stuff -->
-    <script src="./script2.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
